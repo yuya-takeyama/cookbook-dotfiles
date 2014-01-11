@@ -17,7 +17,7 @@ end
 git node['dotfiles']['directory'] do
   repository 'https://github.com/yuya-takeyama/dotfiles.git'
   reference 'master'
-  enable_submodules true
+  # enable_submodules true
   user node['dotfiles']['user']
   action :sync
 end
