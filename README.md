@@ -28,6 +28,12 @@ Attributes
     <td><tt>vagrant</tt></td>
   </tr>
   <tr>
+    <td><tt>['dotfiles']['grouop']</tt></td>
+    <td>String</td>
+    <td>Group to install dotfiles</td>
+    <td><tt>vagrant</tt></td>
+  </tr>
+  <tr>
     <td><tt>['dotfiles']['directory']</tt></td>
     <td>String</td>
     <td>Directory to install dotfiles</td>
