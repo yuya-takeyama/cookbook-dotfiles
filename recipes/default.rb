@@ -23,7 +23,7 @@ git node['dotfiles']['directory'] do
 end
 
 execute 'Install dotfiles' do
-  cwd node['dofiles']['directory']
+  cwd node['dotfiles']['directory']
   command 'sh install.sh'
-  user node['dofiles']['user']
+  user node['dotfiles']['user']
 end
