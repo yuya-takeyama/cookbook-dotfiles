@@ -1,7 +1,7 @@
 dotfiles Cookbook
 =================
 
-My personal dotfiles installation
+My personal [dotfiles](https://github.com/yuya-takeyama/dotfiles) installation
 
 Requirements
 ------------
@@ -31,7 +31,7 @@ Attributes
     <td><tt>['dotfiles']['directory']</tt></td>
     <td>String</td>
     <td>Directory to install dotfiles</td>
-    <td><tt>/home/vagrant/.dotfiles</tt></td>
+    <td><tt>/home/vagrant/dev/dotfiles</tt></td>
   </tr>
 </table>
 
