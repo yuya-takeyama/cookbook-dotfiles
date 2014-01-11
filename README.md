@@ -31,7 +31,7 @@ Attributes
     <td><tt>['dotfiles']['directory']</tt></td>
     <td>String</td>
     <td>Directory to install dotfiles</td>
-    <td><tt>$HOME/.dotfiles</tt></td>
+    <td><tt>/home/vagrant/.dotfiles</tt></td>
   </tr>
 </table>
 
