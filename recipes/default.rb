@@ -9,7 +9,7 @@
 directory node['dotfiles']['directory'] do
   owner node['dotfiles']['user']
   group node['dotfiles']['group']
-  mode 00644
+  mode 00755
   recursive true
   action :create
 end
