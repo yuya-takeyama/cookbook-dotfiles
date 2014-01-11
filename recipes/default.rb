@@ -6,7 +6,7 @@
 #
 # All rights reserved - Do Not Redistribute
 #
-directory '.dotfiles' do
+directory node['dotfiles']['directory'] do
   owner node['dotfiles']['user']
   mode 00644
   recursive true
