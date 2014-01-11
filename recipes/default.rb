@@ -21,3 +21,9 @@ git node['dotfiles']['directory'] do
   user node['dotfiles']['user']
   action :sync
 end
+
+execute 'Install dotfiles' do
+  cwd node['dofiles']['directory']
+  command 'sh install.sh'
+  user node['dofiles']['user']
+end
