@@ -26,4 +26,5 @@ execute 'Install dotfiles' do
   cwd node['dotfiles']['directory']
   command 'sh install.sh'
   user node['dotfiles']['user']
+  environment 'HOME' => '/home/vagrant'
 end
